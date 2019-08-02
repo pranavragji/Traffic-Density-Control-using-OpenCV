@@ -12,6 +12,18 @@ For this project you require
 
 In this project, I have created two lines perpendicular to each other. One line adds to the counter and one subtracts. When a car passes through line 1(add), the counter is increased. This will go on till the counter threshold which has been set. When that threshold is reached, the signal will increase for that lane as there is a large density of cars there. When a car leaves and goes through line 2(subtract), the counter decreases. This will then take the signal time to the normal amount.
 
+I am using the Rasbian OS for the Raspberry Pi3B+. The NOOBS OS can be used for this project as well.
+
+Steps:
+
+-Enable Camera from the interface options in the terminal (raspi-config)
+
+-Install OpenCV3 (This may take 5-6 hours)
+
+-After Installing OpenCV Test Your Camera by using the simpleCamTest.py File
+
+-Now test the code with carcounter.py file
+
 Notes:
 
 The Blue sticker side of the Pi Cam should be facing the USB ports.
